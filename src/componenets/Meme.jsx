@@ -29,7 +29,7 @@ export default function Meme() {
         ))
     }
 
-    function changeImage() {
+    function changeImage(event) {
         event.preventDefault()
         const newUrl = allMemes[Math.floor(Math.random() * allMemes.length)].url
         setMeme((prevMeme) => (
