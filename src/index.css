@@ -46,6 +46,7 @@ form {
 }
 
 .inputs{
+  max-width: 90vw;
   display: flex;
   gap: 3em;
   margin-top: 3em;
